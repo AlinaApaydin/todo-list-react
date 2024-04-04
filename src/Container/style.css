@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(241, 238, 238)
+}
+
+@media (max-width: 700px) {
+    .main {
+        grid-template-columns: 250px;
+
+    }
+}
+
+.main__title {
+    margin: 20px;
+}
+
