@@ -3,6 +3,7 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Container from './Container';
+import "./index.css";
 
 const tasks = [
   { id: 1, content: "przejść na reakta", done: false },
